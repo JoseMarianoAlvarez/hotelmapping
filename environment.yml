@@ -1,0 +1,63 @@
+#conda env create -f environment.yml
+#conda env update -f environment.yml
+name: mapping
+channels:
+  - conda-forge    
+dependencies:  
+  - bokeh>=2.4.2
+  - catboost
+  - cython
+  - dask
+  - fastparquet
+  - graphviz
+  - h5py
+  - ipykernel 
+  - jellyfish
+  - jsonlines
+  - jupyter
+  - jupyterlab 
+  - kmodes
+  - libpython 
+  - lightgbm
+  - matplotlib
+  - mlflow
+  - numpy
+  - pandas 
+  - pip
+  - psycopg2
+  - py-xgboost
+  - pyarrow>=1.0  
+  - pylint
+  - python>=3.7.8 
+  - pyyaml 
+  - rope
+  - scikit-learn
+  - scipy
+  - seaborn  
+  - sqlalchemy
+  - statsmodels  
+  - tensorflow>=2.5
+  - ujson
+
+  #- notebook
+  #- ipywidgets>=7.5
+  #- cachey
+  #- zarr
+  #  Faster hashing of arrays
+  #- cityhash
+  #  Graph visualization using the cytoscape engine
+  #- ipycytoscape
+  #- openpyxl
+  #- pandas-datareader
+  #- Pillow
+  #- pytables
+  #- s3fs
+  #- snakeviz
+  #- toolz
+  #- xlsxwriter
+
+  
+
+
+
+
